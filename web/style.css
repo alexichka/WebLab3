@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:  url("fon.jpg") 5px 50% no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    position: relative;
+    font-size: 63px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Arial Narrow", serif;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+h2{
+    position: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Arial Narrow", serif;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+h3{
+    position: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Arial Narrow", serif;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.form {
+    position: absolute;
+
+    width: 400px;
+    height: 300px;
+    padding: 32px ;
+    border-radius: 30px;
+    box-shadow: 0px 4px 16px #ccc;
+    box-shadow: inset 0 0 6px #999;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: rgba(179,179,179, 0.7);
+}
+
+.form_title {
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal;
+}
+
+.form_title3{
+    text-align: center;
+    margin: 0 0 22px 0;
+    font-weight: normal;
+}
+
+.form_button {
+    padding: 10px 20px;
+    border:none ;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color :#000 ;
+    background-color: #933;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form_grup {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form_input {
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form_input:focus {
+    border-bottom: 1px solid #900;
+}
+
+.form_button:hover{
+    background-color: #900;
+    transition: 0.3s;
+}
+
+.form_button:focus {
+    vertical-align: middle;
+    color: #c00;
+}
+
+.body {
+    text-align: center;
+    height: 100vh;
+    background:  url("fon2.jpg") 5px 50% no-repeat;
+    background-size: 100%;
+}
+
+.button_back{
+    padding: 10px 20px;
+    border:none ;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    color :#000 ;
+    background-color: #993333;
+    text-decoration: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.button_back:hover{
+    background-color: #900;
+    transition: 0.3s;
+}
+
+.button_back:focus {
+    vertical-align: middle;
+    color: #c00;
+}
+
+.form_title_result {
+   right: 160px;
+   bottom: 440px;
+}
